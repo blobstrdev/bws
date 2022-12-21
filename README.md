@@ -44,3 +44,5 @@ Hiding PHP
 Open the file `/etc/php/{version}/apache2/php.ini` and search for expose_php. Set this property to off.
 
 expose_php = Off
+Restart/Reload the web server and the X-Powered-By header will no longer be available. 
+
